@@ -1,0 +1,23 @@
+{
+  "name": "payslipgenerator",
+  "version": "1.0.0",
+  "description": "Payslip Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "EX",
+    "Code",
+    "Exercise"
+  ],
+  "author": "Thomas Ng",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^0.4.6",
+    "csv-parse": "^1.0.2",
+    "csv-write-stream": "^1.0.0",
+    "mocha": "^2.4.5",
+    "validator": "^5.1.0"
+  }
+}
