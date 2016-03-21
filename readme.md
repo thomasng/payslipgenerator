@@ -1,6 +1,6 @@
 # Payslip Generator app
 
-This sample application generate employee monthly playslip information.
+This sample application generate employee monthly playslip information in csv file format.
  * Runs on Node.js version 4 or later.
 
 ### Assumptions , Design, Source Code Explanation and How to run the application
@@ -22,6 +22,11 @@ $ node src/index.js 2012 ./input_files/salary2012.csv ./output_files/result2012.
 Command line for running the application:
 ```shell
 $ node index.js [year] [inputCsvFile] [outputCsvFile]        
+```
+
+Example:
+```shell
+$ node src/index.js 2012 ./input_files/salary2012.csv ./output_files/result2012.csv        
 ```
 
 Alternatively, you can run the included batch files in node.js shell for generating payslip information.
